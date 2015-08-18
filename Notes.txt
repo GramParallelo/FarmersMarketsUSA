@@ -1,0 +1,16 @@
+"D3’s d3.csv function. We don’t need the total column that the dataset uses, so we’ll use the $select parameter to filter down to the four columns we really care about. 
+We’ll also use the $where parameter to only get ridership after 1999, and the $$app_token parameter to pass our application token."
+
+++ uses parameters in D3 instead of return function data.
+
+++ set up svg. then uses data from callback to fill element. 
+
+
+cmd:
+>
+>npm install http-server -g
+>
+>cd <myapp>
+>
+>http-server -o
+
