@@ -300,7 +300,7 @@ var data = d3.csv("./data/farmersMarkets.csv", function(d) {
 
 var margin = {top: 20, right: 20, bottom: 70, left: 40},
     width = 600 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+    height = 400 - margin.top - margin.bottom;
 	
 var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
 
