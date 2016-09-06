@@ -242,7 +242,7 @@ var states = [
 ];
 
 //Sort Data
-var data = d3.csv("/data/farmersMarkets.csv", function(d) {
+var data = d3.csv("./data/farmersMarkets.csv", function(d) {
   return {
     'city' : d.city,
     'state' : d.State,
